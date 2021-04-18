@@ -2,4 +2,4 @@ classes = 3
 train  = /content/yolov4-mask-detection/MaskGoodBadNone/train.txt
 valid  = /content/yolov4-mask-detection/MaskGoodBadNone/valid.txt
 names = /content/yolov4-mask-detection/MaskGoodBadNone/obj.names
-backup = /content/yolov4-mask-detection/MaskGoodBadNone/backup/
+backup = /content/yolov4-mask-detection/MaskGoodBadNone/backup
