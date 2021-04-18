@@ -1,0 +1,5 @@
+classes = 3
+train  = MaskGoodBadNone/train.txt
+valid  = MaskGoodBadNone/valid.txt
+names = MaskGoodBadNone/obj.names
+backup = MaskGoodBadNone/backup/

@@ -1,0 +1,9 @@
+# Rename
+mmv 'Mask_*_*.*.jpg' 'Mask_#1.jpg'
+mmv 'Mask_*_*.*.txt' 'Mask_#1.txt'
+
+# Remove last line on txt files which has an invalid class numbered 3
+sed -i '$ d' ./*.txt
+
+# Add a carriage return at the end of the file
+sed -i -z 's/$/\n/g' ./*.txt
